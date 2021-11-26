@@ -1,0 +1,16 @@
+.list {
+  display: flex;
+}
+.listItem:not(:last-child) {
+  margin-right: 3px;
+}
+button {
+  box-shadow: none;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(222, 102, 238);
+  color: white;
+  width: 70px;
+  height: 25px;
+  font-weight: 600;
+}
